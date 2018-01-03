@@ -5,7 +5,7 @@ What is Web page for Linux Phore Wallet ?
 It create a web page to check your balance and the phore network.
 
 
-How to it set up ?
+How to install it ?
 
 First you need to have python and your web server installed in your linux server.
 1) Place the python file somewhere for example in /home/python/
