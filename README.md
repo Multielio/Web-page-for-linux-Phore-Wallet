@@ -12,7 +12,7 @@ First you need to have python and your web server installed in your linux server
 2) Create a screen:  screen -S pphore
 3) Enter: python pythonfile.py
 4) Exit the screen 
-5) Put the php file in somewhere in /var/www/html/
+5) Put the php file somewhere in /var/www/html/
 6) Wait 60 sec
 7) Go to yourwebsite/phpfilename.php
 
