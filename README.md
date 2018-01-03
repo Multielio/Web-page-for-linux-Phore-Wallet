@@ -1,1 +1,3 @@
-# Web_page_linux_Phore_Wallet
+# Web page for Linux Phore Wallet
+
+For now it's just a little script that display in a text file all balance updates.
