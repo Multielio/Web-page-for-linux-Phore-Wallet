@@ -1,6 +1,6 @@
 # Web page for Linux Phore Wallet
 
-What is Web page for Linux Phore Wallet ?
+What is "Web page for Linux Phore Wallet" ?
 
 It create a web page to check your balance and the phore network.
 
@@ -13,14 +13,13 @@ Required:
 - FontAwesome file in the directory where you put the php file (you can get it here http://fontawesome.io/get-started/)
 
 Steps:
-1) Place the python file somewhere for example in /home/python/
+1) Place the python file (getphore.py) somewhere for example in /home/python/
 2) Create a screen:  screen -S pphore
-3) Enter: python pythonfile.py
+3) Enter: python getphore.py
 4) Exit the screen 
-5) Put the php file somewhere in /var/www/html/
+5) Put the php file (phore.php) somewhere in /var/www/html/
 6) Wait 60 sec
-7) Go to yourwebsite/phpfilename.php
-
+7) Go to yourwebsite/phore.php
 
 
 
