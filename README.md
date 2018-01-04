@@ -24,6 +24,6 @@ Steps:
 
 
 Issues:
-- If icons do not appear make sure that line 5 of phore.php match with the directory name of your fontawesome 
+- If icons do not appear make sure that line 18 of getphore.py match with the directory name of your fontawesome 
 
 
