@@ -10,6 +10,7 @@ How to install it ?
 Required:
 - A Web Server
 - Python installed
+- Phore Wallet installed
 - FontAwesome file in the directory where you put the php file (you can get it here http://fontawesome.io/get-started/)
 
 Steps:
@@ -17,9 +18,8 @@ Steps:
 2) Create a screen:  screen -S pphore
 3) Enter: python getphore.py
 4) Exit the screen 
-5) Put the php file (phore.php) somewhere in /var/www/html/
 6) Wait 60 sec
-7) Go to yourwebsite/phore.php
+7) Go to yourwebsite/p/phore.php
 
 
 
