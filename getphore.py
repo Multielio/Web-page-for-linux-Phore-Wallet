@@ -96,7 +96,7 @@ web_page="""
        <b>Budget Proposal:</b>
 	   <div>
 		{}
-       
+       </div>
 		<hr>
 	
 		<h4>Usefull Links</h4>
@@ -179,14 +179,14 @@ while i ==0:
         masternodestring =""
         l = 0
         for el in oo:
-            
+            mtext = mastpatern.format(el["Name"],el["URL"],el["Hash"],el["FeeHash"],el["BlockStart"],el["BlockEnd"],el["TotalPaymentCount"],el["RemainingPaymentCount"],el["PaymentAddress"],el["Ratio"],el["TotalPayment"],el["MonthlyPayment"],el["Yeas"],el["Nays"])
             if l%2 ==0:
                 if l != len(el):
-                    masternodestring +="""</div><div class="row">"""+mastpatern.format(el["Name"],el["URL"],el["Hash"],el["FeeHash"],el["BlockStart"],el["BlockEnd"],el["TotalPaymentCount"],el["RemainingPaymentCount"],el["PaymentAddress"],el["Ratio"],el["TotalPayment"],el["MonthlyPayment"],el["Yeas"],el["Nays"]) 
+                    masternodestring +="""</div><div class="row">"""+mtext 
                 else:
-                    masternodestring +="""</div><div class="row">"""+mastpatern.format(el["Name"],el["URL"],el["Hash"],el["FeeHash"],el["BlockStart"],el["BlockEnd"],el["TotalPaymentCount"],el["RemainingPaymentCount"],el["PaymentAddress"],el["Ratio"],el["TotalPayment"],el["MonthlyPayment"],el["Yeas"],el["Nays"])+"</div>"
+                    masternodestring +="""</div><div class="row">"""+mtext+"</div><div>"
             else:
-                masternodestring +=mastpatern.format(el["Name"],el["URL"],el["Hash"],el["FeeHash"],el["BlockStart"],el["BlockEnd"],el["TotalPaymentCount"],el["RemainingPaymentCount"],el["PaymentAddress"],el["Ratio"],el["TotalPayment"],el["MonthlyPayment"],el["Yeas"],el["Nays"]) +"</div>"
+                masternodestring +=mtext +"</div><div>"
             l+=1
         newbalance = o["balance"]
         fo = open(web_path.format("phore.php"), "w")
