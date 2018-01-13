@@ -2,7 +2,7 @@
 
 ## What is "Web page for Linux Phore Wallet" ?
 
-	It create a web page to check your balance and the phore network.
+It creates a web gui to check your balance and the phore network.
 
 
 ## How to install it ?
