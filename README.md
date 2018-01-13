@@ -14,7 +14,7 @@ It creates a web gui to check your balance and the phore network.
 - FontAwesome file in the directory where you put the php file (you can get it here http://fontawesome.io/get-started/)
 
 ### Steps:
-1) Place the python file (getphore.py) somewhere for example in /home/python/
+1) Put the python file (getphore.py) somewhere for example in /home/python/
 2) Create a screen:  screen -S pphore
 3) Enter: python getphore.py
 4) Exit the screen 
