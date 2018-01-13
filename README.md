@@ -31,3 +31,5 @@ I recommend the usage of a .htaccess file to restrict the access to this web pag
 - If icons do not appear make sure that line 18 of getphore.py match with the directory name of your fontawesome 
 
 
+### Donate:
+I need to buy coffee sometimes to keep working, my phore address: P8wYoLWebAXBKD6wTSMv1mxXeQRfM3JLom
