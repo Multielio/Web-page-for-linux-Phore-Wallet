@@ -108,8 +108,19 @@ web_page="""
 		</ul>
 
 	</div>
+	</br>
+    </br>
+
 
 </body>
+<footer class="page-footer center-on-small-only stylish-color-dark">
+<div class="footer-copyright">
+        <div class="container-fluid">
+            <p class="text-center"> By Multielio | My phore address: P8wYoLWebAXBKD6wTSMv1mxXeQRfM3JLom </p>
+
+        </div>
+</div>
+</footer>
 </html>
 
 
@@ -203,8 +214,8 @@ while i ==0:
 			receive = """<li class="list-group-item list-group-item-success"> + {}	PHR <p class="text-right">[{}]</p></li>"""
 			sent = """<li class="list-group-item list-group-item-danger">  {}	PHR <p class="text-right">[{}]</p></li>"""
 			u = el["amount"]
-			time = el["time"]
-			time_string = datetime.fromtimestamp(int(time)).strftime('%Y-%m-%d %H:%M:%S')
+			timet = el["time"]
+			time_string = datetime.fromtimestamp(int(timet)).strftime('%Y-%m-%d %H:%M:%S')
 			try:
 				b = el["fee"]
 				if round(float(b),2) ==  7:
